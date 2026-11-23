@@ -1,0 +1,7 @@
+# Netlify — Arena de Argumentos
+# Sin build command. Arrastra la carpeta raíz a Netlify Drop.
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200

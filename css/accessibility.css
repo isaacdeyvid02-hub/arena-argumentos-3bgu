@@ -1,0 +1,44 @@
+/* ══════════════════════════════════════════
+   Arena de Argumentos — Accesibilidad
+   Controles: texto grande, movimiento reducido,
+   alto contraste. WCAG AA mínimo en paleta base.
+   ══════════════════════════════════════════ */
+
+/* ── Texto grande (+30 %) ──────────────── */
+body.big-text {
+  --f-base: 23px;
+  --f-sm:   19px;
+  --f-lg:   27px;
+  --f-xl:   34px;
+  --f-xxl:  44px;
+}
+
+/* ── Sin animaciones ───────────────────── */
+body.reduce-motion *,
+body.reduce-motion *::before,
+body.reduce-motion *::after {
+  animation-duration: .001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: .001ms !important;
+}
+
+/* ── Alto contraste ────────────────────── */
+body.high-contrast {
+  --azul:      #003D6B;
+  --azul-osc:  #001F38;
+  --terracota: #8B1A0A;
+  --ocre:      #7B5800;
+  --ocre-osc:  #5a3f00;
+  --verde:     #1B5E20;
+  --crema:     #FFFFFF;
+  --marron:    #000000;
+  --gris:      #444;
+  --sombra:    rgba(0,0,0,.35);
+}
+
+/* ── Focus global (teclado) ────────────── */
+:focus-visible {
+  outline: 3px solid #E0A84B;
+  outline-offset: 3px;
+  border-radius: 4px;
+}

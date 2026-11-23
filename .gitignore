@@ -1,0 +1,19 @@
+# Archivos de sistema y entorno
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencias y logs (por si se usan en el futuro)
+node_modules/
+*.log
+npm-debug.log*
+
+# Temporales de compilación / despliegue
+.cache/
+.netlify/

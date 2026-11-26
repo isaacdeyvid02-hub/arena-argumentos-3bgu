@@ -5,7 +5,7 @@
  * Para publicar, editar SURVEY_URL con la URL real de la encuesta.
  */
 const CONFIG = {
-  SURVEY_URL: '[URL_ENCUESTA]',
+  SURVEY_URL: 'https://docs.google.com/forms/d/e/1FAIpQLScd_jIwbic-BOtc3rRLKRd-bQzMoB6QCZNUZt5z7rujj1OBVA/viewform',
   MIN_WORDS: 80,
   MAX_WORDS: 120,
   PASS_CHALLENGES: 2,       // aciertos mínimos para superar un nivel
